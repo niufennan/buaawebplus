@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="#000"
+    android:layout_height="match_parent">
+
+    <com.webplus.jiangchao.irdescence.Layout.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_title">
+    </com.webplus.jiangchao.irdescence.Layout.TitleLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="菜单"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textSize="40dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/course_listbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:gravity="left"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="课程表"/>
+
+    <Button
+        android:id="@+id/homework_listbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+
+        android:textSize="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#000"
+        android:gravity="left"
+        android:text="作业本"/>
+
+    <Button
+        android:id="@+id/booklistBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:background="#000"
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="笔记本"/>
+
+</LinearLayout>

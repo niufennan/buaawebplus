@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.webplus.jiangchao.irdescence.CourseViewActivity">
+    <com.webplus.jiangchao.irdescence.Layout.CourseTitleLayout
+        android:id="@+id/course_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.webplus.jiangchao.irdescence.Layout.CourseTitleLayout>
+    <TextView
+        android:id="@+id/course_view_coursename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="65dp"
+        android:textColor="#fff"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <!--
+    <com.example.jiangchao.myapplication.Layout.CourseFooterLayout
+        android:id="@+id/courselist_footlayout"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom|center"
+        android:layout_height="wrap_content">
+
+    </com.example.jiangchao.myapplication.Layout.CourseFooterLayout>
+    -->
+</LinearLayout>

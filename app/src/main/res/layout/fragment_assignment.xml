@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context="com.webplus.jiangchao.irdescence.Fragment.AssignmentFragment">
+
+    <com.webplus.jiangchao.irdescence.Layout.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_title">
+    </com.webplus.jiangchao.irdescence.Layout.TitleLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="作业"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:text="这里直观显示作业完成情况的图表"/>
+
+</LinearLayout>

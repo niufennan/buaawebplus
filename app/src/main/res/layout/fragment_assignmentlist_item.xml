@@ -1,0 +1,35 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0">
+    <TableRow>
+        <TextView  android:layout_height="5dp" android:layout_width="match_parent"
+            android:layout_span="2"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:layout_height="wrap_content"
+            android:id="@+id/homework_content"
+            android:text="数学 12页 第五题"/>
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="80dp"
+            android:background="#00f">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/homework_month"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:text="十一月"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/homework_day"
+                android:layout_gravity="center"
+                android:textColor="#fff"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                android:text="13"/>
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

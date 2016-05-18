@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.webplus.jiangchao.irdescence.Fragment.CourseNotebookFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="今天笔记"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:textSize="40dp"/>
+    <TableLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0">
+        <TableRow>
+            <EditText android:hint="添加笔记"
+                android:id="@+id/course_view_today_notebook_text"
+                android:background="@android:drawable/edit_text"  android:layout_height="52dp"/>
+            <Button android:text="添加"
+                android:id="@+id/course_view_today_notebook_btn"
+                android:background="@drawable/buttonstyle"
+                android:padding="0dp" android:layout_marginLeft="5dp"
+                android:textColor="#fff" android:layout_height="40dp"/>
+        </TableRow>
+    </TableLayout>
+    <ListView
+        android:id="@+id/course_view_today_notebook"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

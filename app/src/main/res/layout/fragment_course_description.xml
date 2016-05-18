@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.webplus.jiangchao.irdescence.Fragment.CourseDescriptionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="课程概述"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:textSize="40dp"/>
+    <TextView
+        android:id="@+id/course_remark"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="课程概述"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/course_next_remark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="课程概述"
+        android:textColor="#fff"
+        android:textSize="20dp"/>
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.webplus.jiangchao.irdescence.AddOrUpdateCourseActivity">
+    <com.webplus.jiangchao.irdescence.Layout.CourseTitleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.webplus.jiangchao.irdescence.Layout.CourseTitleLayout>
+    <TextView
+        android:id="@+id/edittitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        android:text="新建课程"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ccc"
+        android:layout_marginTop="10dp"
+        android:text="课程名称"/>
+    <EditText
+        android:id="@+id/courseeditname"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/edit_text"
+        android:textColorHint="#AAAAAA"
+
+        android:hint="请输入..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ccc"
+        android:text="上课时间"/>
+    <Button
+        android:id="@+id/courseeditstarttime"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="left|center_vertical"
+        android:hint="请输入..."
+        android:text=""
+        android:background="@android:drawable/edit_text"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ccc"
+        android:layout_marginTop="10dp"
+        android:text="下课时间"/>
+    <Button
+        android:id="@+id/courseeditendtime"
+        android:layout_width="match_parent"
+        android:hint="请输入..."
+        android:gravity="left|center_vertical"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ccc"
+        android:layout_marginTop="10dp"
+        android:text="上课地点"/>
+    <EditText
+        android:id="@+id/courseeditlocation"
+        android:layout_width="match_parent"
+
+        android:hint="请输入..."
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_gravity="bottom|center"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/addoreditcourseokbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="#fff"
+            android:layout_marginBottom="40dp"
+            android:paddingLeft="40dp"
+
+            android:background="@drawable/buttonstyle"
+            android:paddingRight="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="确    定"/>
+        <Button
+            android:id="@+id/addoreditcoursecancelbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/buttonstyle"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="40dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:textColor="#fff"
+            android:text="取    消"/>
+    </RelativeLayout>
+</LinearLayout>

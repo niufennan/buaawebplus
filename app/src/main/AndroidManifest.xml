@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.webplus.jiangchao.irdescence">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.webplus.jiangchao.irdescence.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CourseListActivity" />
+        <activity android:name=".HomeworkListActivity" />
+        <activity android:name=".NoteBookActivity" />
+        <activity android:name=".AddOrUpdateCourseActivity" />
+        <activity android:name=".AddOrUpdateAssignmentActivity" />
+        <activity android:name=".AddOrUpdateNotebookActivity" />
+        <activity android:name=".TimerActivity" />
+        <activity android:name=".CourseViewActivity"></activity>
+    </application>
+
+</manifest>

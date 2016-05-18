@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2016/5/3" android:height="50dp"
+        android:gravity="center_vertical"
+        android:background="#1ba1e2" android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:paddingLeft="10dp"
+        android:textSize="25dp"
+        android:id="@+id/homework_createtime"
+        />
+    <ListView
+        android:id="@+id/homework_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="0dp"
+        android:divider="#fff">
+
+    </ListView>
+</LinearLayout>
