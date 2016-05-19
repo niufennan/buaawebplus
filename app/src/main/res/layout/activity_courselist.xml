@@ -9,21 +9,21 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <com.webplus.jiangchao.irdescence.Layout.CourseTitleLayout
+        <com.webplus.jiangchao.iridescence.Layout.CourseTitleLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        </com.webplus.jiangchao.irdescence.Layout.CourseTitleLayout>
+        </com.webplus.jiangchao.iridescence.Layout.CourseTitleLayout>
         <android.support.v4.view.ViewPager
             android:id="@+id/container"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
     </LinearLayout>
-    <com.webplus.jiangchao.irdescence.Layout.CourseFooterLayout
+    <com.webplus.jiangchao.iridescence.Layout.CourseFooterLayout
         android:id="@+id/courselist_footlayout"
         android:layout_width="match_parent"
         android:layout_gravity="bottom|center"
         android:layout_height="wrap_content">
 
-    </com.webplus.jiangchao.irdescence.Layout.CourseFooterLayout>
+    </com.webplus.jiangchao.iridescence.Layout.CourseFooterLayout>
 </FrameLayout>

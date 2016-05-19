@@ -5,16 +5,16 @@
     android:layout_width="match_parent"
     android:background="#000"
     android:layout_height="match_parent"
-    tools:context="com.webplus.jiangchao.irdescence.HomeworkListActivity">
+    tools:context="com.webplus.jiangchao.iridescence.HomeworkListActivity">
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <com.webplus.jiangchao.irdescence.Layout.CourseTitleLayout
+        <com.webplus.jiangchao.iridescence.Layout.CourseTitleLayout
             android:id="@+id/homework_list_title_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-        </com.webplus.jiangchao.irdescence.Layout.CourseTitleLayout>
+        </com.webplus.jiangchao.iridescence.Layout.CourseTitleLayout>
         <android.support.v4.view.ViewPager
             android:id="@+id/container"
             android:layout_width="match_parent"
@@ -22,10 +22,10 @@
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
     </LinearLayout>
 
-    <com.webplus.jiangchao.irdescence.Layout.FooterLayout
+    <com.webplus.jiangchao.iridescence.Layout.FooterLayout
         android:id="@+id/homeworklist_footlayout"
         android:layout_width="match_parent"
         android:layout_gravity="bottom|center"
         android:layout_height="wrap_content">
-    </com.webplus.jiangchao.irdescence.Layout.FooterLayout>
+    </com.webplus.jiangchao.iridescence.Layout.FooterLayout>
 </FrameLayout>

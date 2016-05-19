@@ -4,12 +4,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#000"
-    tools:context="com.webplus.jiangchao.irdescence.Fragment.AdFragment">
-    <com.webplus.jiangchao.irdescence.Layout.TitleLayout
+    tools:context="com.webplus.jiangchao.iridescence.Fragment.AdFragment">
+    <com.webplus.jiangchao.iridescence.Layout.TitleLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/layout_title">
-    </com.webplus.jiangchao.irdescence.Layout.TitleLayout>
+    </com.webplus.jiangchao.iridescence.Layout.TitleLayout>
 
     <TextView
         android:layout_width="match_parent"

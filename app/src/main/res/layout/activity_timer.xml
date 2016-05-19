@@ -3,17 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.webplus.jiangchao.irdescence.TimerActivity">
+    tools:context="com.webplus.jiangchao.iridescence.TimerActivity">
     <TimePicker
         android:id="@+id/timer"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     </TimePicker>
-    <com.webplus.jiangchao.irdescence.Layout.TimerFooterLayout
+    <com.webplus.jiangchao.iridescence.Layout.TimerFooterLayout
         android:id="@+id/timer_footer_layout"
         android:layout_width="match_parent"
         android:layout_gravity="bottom|center"
         android:layout_height="wrap_content">
 
-    </com.webplus.jiangchao.irdescence.Layout.TimerFooterLayout>
+    </com.webplus.jiangchao.iridescence.Layout.TimerFooterLayout>
 </RelativeLayout>

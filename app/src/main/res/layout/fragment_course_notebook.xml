@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000"
-    tools:context="com.webplus.jiangchao.irdescence.Fragment.CourseNotebookFragment">
+    tools:context="com.webplus.jiangchao.iridescence.Fragment.CourseNotebookFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

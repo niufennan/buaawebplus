@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     android:background="#000"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.webplus.jiangchao.irdescence.CourseViewActivity">
-    <com.webplus.jiangchao.irdescence.Layout.CourseTitleLayout
+    tools:context="com.webplus.jiangchao.iridescence.CourseViewActivity">
+    <com.webplus.jiangchao.iridescence.Layout.CourseTitleLayout
         android:id="@+id/course_view_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-    </com.webplus.jiangchao.irdescence.Layout.CourseTitleLayout>
+    </com.webplus.jiangchao.iridescence.Layout.CourseTitleLayout>
     <TextView
         android:id="@+id/course_view_coursename"
         android:layout_width="match_parent"

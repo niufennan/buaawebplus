@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.webplus.jiangchao.irdescence.Fragment.CourseAssignmentFragment">
+    tools:context="com.webplus.jiangchao.iridescence.Fragment.CourseAssignmentFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
